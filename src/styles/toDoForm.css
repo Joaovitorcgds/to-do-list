@@ -1,0 +1,19 @@
+form{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.inputForm{
+  padding: 3px;
+  font-size: 15px;
+}
+
+.btnAdd{
+  padding: 4px 10px;
+  background-color: #eea050;
+  color: white;
+  border: 2px solid #eea050;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}

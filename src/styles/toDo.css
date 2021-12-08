@@ -1,0 +1,80 @@
+body{
+  background-image: url("../assets/bkg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.container{
+  margin: auto;
+  max-width: 600px;
+}
+
+.title{
+color: #1d2c29;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addButton{
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #eea050;
+  border: 1px solid gray;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardModal{
+  padding: 30px;
+  background-color: white;
+}
+
+.hide{
+  display: none;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.item{
+  max-width: 100%;
+  padding: 15px;
+  margin-top:  15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.card{
+  background-color: white;
+  box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
